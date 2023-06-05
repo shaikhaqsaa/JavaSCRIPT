@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1">
+        <b>Enter marks 1 :</b><input type="textbox" name="txtNum1"><br>
+        <b>Enter marks 2 :</b><input type="textbox" name="txtNum2"><br>
+        <b>Enter marks 3 :</b><input type="textbox" name="txtNum3"><br>
+
+        <input type="button" value="calculate" onclick="calculate()">
+    </form>
+    <script>
+        var a;
+        var b;
+        var c;
+        var result=0;
+        var avg=0;
+
+        function calculate()
+        {
+            a=parseInt(form1.txtNum1.value);
+            b=parseInt(form1.txtNum2.value);
+            c=parseInt(form1.txtNum3.value);
+            result=a+b+c;
+
+            avg=result/3;
+
+            document.write("the total is :"+"<br>"+ avg +"<br>"+"</br>");
+            document.write("The Avg is :"+"<br>"+avg+"<b>"+"</br>")
+
+                if(avg>50)
+                {
+                    document.write("<b>You are Passed</b>");
+                }
+                else
+                {
+                    document.write("<b>you are failed</b>");
+                }
+        }
+    </script>
+    
+</body>
+</html>
