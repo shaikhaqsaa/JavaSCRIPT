@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var abc = prompt("enter data")
+        console.log("user entered",abc);
+        console.log(typeof abc);
+
+        console.log("paperFloat",typeof parseFloat(abc));
+        parseInt(abc)
+        console.log("paperInt",typeof parseInt(abc));
+        function factoria(n) {
+            if(n == 0 || n == 1){
+                console.log(n);
+                return 1
+            }else
+            {
+                console.log("inside else",n);
+                return n*factoria(n-1)
+            }
+
+            
+        }
+        console.log(factoria(5));
+    </script>
+</body>
+</html>
