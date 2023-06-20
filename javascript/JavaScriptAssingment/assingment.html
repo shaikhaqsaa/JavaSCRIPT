@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>  MODULE- 4 </h2>
+    <H3>JavaScript Assingnment.</H3>
+
+<h4>what is javascript?</h4>
+<p>ANS:- JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.</p>
+
+<H4>• What is the use of isNaN function?</H4>
+<p>The isNaN() function determines whether a value is NaN when converted to a number. Because coercion inside the isNaN() function can be surprising, you may alternatively want to use Number.isNaN().</p>
+
+<h4>what is negative infinity?</h4>
+<p>It is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScrip</p>
+<h4>Which company developed JavaScript?</h4>
+<p>JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997. After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser.</p>
+<h4>What are undeclared and undefined variables?</h4>
+<p>Undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that have been declared but not given a value. </p>
+<h4>Write the code for adding new elements dynamically?</h4>
+<p>// newDiv element has been created
+    For Eg: let newDiv = document.createElement("div");</p>
+    <h4>What is the difference between ViewState and SessionState? </h4>
+    <p>Session state is saved on the server, ViewState is saved in the page.</p>
+    <h4>What is the use of === operator?</h4>
+        <p>The strict equality ( === ) operator checks whether its two operands are equal, returning a Boolean result.</p>
+        <h4>• How can the style/class of an element be changed?</h4>
+        <p>Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order to access the element's class, you use element. className</p>
+        <h4>How to read and write a file using JavaScript?
+        </h4>
+        <p>file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+            str = fread // The function fwrite() is used to write the contents to the file.
+            file = fopen// opens the file for writing.</p>
+            <h4></h4>
+            <p>The statements for loops provided in JavaScript are:
+                <ul>
+                    <li>for statement</li>
+                    <li>do...while statement</li>
+                    <li>while statement</li>
+                    <li> labeled statement</li>
+                    <li>break statement</li>
+                    <li> hcontinue statement</li>
+                    <li> hfor...in statement</li>
+                    <li> hfor...of statement</li>
+                  </ul>
+                  <h4>How can you convert the string of any base to an integer in JavaScript?</h4>
+<p>We can convert a string to an integer by using the parseInt() conversion by default. </p>
+<h4>• What is the function of the delete operator?</h4>
+<p>The delete operator removes a property from an object. </p>
+<h4> What are all the types of Pop up boxes available in JavaScript?</h4>
+<p>JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.</p>
+<h4>What is the use of Void (0)?</h4>
+<p>JavaScript void 0 means returning undefined (void) as a primitive value. It is used to prevent any side effects caused while inserting an expression in a web page.</p>
+<h4>How can a page be forced to load another page in JavaScript?</h4>
+<p>In JavaScript, we can use window. location object to force a page to load another page. We can use the location object to set the URL of a new page.</p>
+<h4>• What are the disadvantages of using innerHTML in JavaScript?</h4>
+<p>Disadvantages of innerHTML</p>
+<ul>
+    <li>Event handlers attached to any DOM element are preserved.</li>
+   <li> Replacement is done everywhere.</li>
+    <li>It is not possible to append innerHTML.</li>
+    <li>Breaks the document.</li>
+    <li>Used for Cross-site Scripting.</li>
+    </ul>
+    
+    <h3>• Create password field with show hide functionalities </h3>
+    PASSWORD:-<input type="password" value="psw" id="pass"><br>
+    <input type="checkbox" onclick="myfunction ()">show password
+    <script>
+        function myfunction() {
+            var x = document.getElementById("pass");
+            if (x.type === "password") {
+                x.type = "text";
+
+                
+            } else {
+                x.type = "password"
+                
+            }
+            
+        }
+    </script>
+</body>
+</html>
