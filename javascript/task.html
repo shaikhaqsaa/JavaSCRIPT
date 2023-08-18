@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> 1. Explain Variable?</h2>
+    <p>variable = vari + able. </p>
+    <p>ability to hold variety .It is loosely type languange means it dont need to declare before it use </p>
+    <p> A javascript variable is a name of storage location. </p>
+    <li>let</li>
+    <li>var</li>
+    <li>const</li>
+
+    <h2>2. what are the different datatype in js?</h2>
+    <p>There are mainly 8 datatype in JS </p>
+    <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Bigint</li>
+        <li>Undefined</li>
+        <li>Null</li>
+        <li>Object</li>
+        <li>symbol</li>
+    </ul>
+
+    <h2>3. Explain Hosting</h2>
+    <P> In Javascript, Hosting is the default behaviour of moving all the declaration at the top of the score before code execution </P>
+
+
+    <h2>5. Diffrence between "==" and "==="?</h2>
+    <p>"==" only compare the value.</p>
+    <p>"===" compare value also its type.</p>
+
+    <h2>6. Arithmetic Operator Example?</h2>
+    <p></p>
+    &lt;script &gt;
+        let a = 50 <br>
+        a = a+5; <br>
+        a +=5; <br>
+        b=50 <br>
+        sum = a+b <br>
+        console.log(sum); <br>
+    &lt;/script &gt;
+
+    <h2> 7. Dynamic example of boolean operator </h2>
+    <p>&lt; script &gt;<br>
+        const a = 3;<br>
+        const b = -2;<br>
+        console.log(a>0 && b>0); <br>
+    &lt; /script &gt;<br>
+   "Expected output : FALSE"</p>
+
+   <h2>8. how many keyword are in javascript?</h2>
+   <p> Javascript keywords are reserved  word, which we cannot use the name the variable or function there are total <b >63</b>
+which javascript provide the programe.</p>
+<p> here is some example of javascript keywords</p>
+<ul>
+    <li>abstract</li>
+    <li>byte</li>
+    <li>const</li>
+    <li>arguments</li>
+    <li>break</li>
+    <li>default</li>
+    <li>if</li>
+     <li>int</li>
+      <li>return</li>
+      <li>typeof</li>
+      <li>public</li>
+       <li>null</li>
+       <li>function</li>
+       <li>char</li>
+</ul>
+
+<h2>9. Differece between Array and Object?</h2>
+<p>ARRAY :-  Array are best use when element is Numbers</p>
+<p>The data inside an array is called Elements </p>
+<p>The element can be manupulated by using []</p>
+<p>itereate through an array is possible using :-FOR LOOP, for...in, and for..each() </p>
+
+<p>OBJECT :- OBJECT are best to use when the element is string </p>
+<p>the data inside an object is called properties which consist of key and value </p>
+the element can be manupulated by using ,].DOT
+<p>The keys or properties can be deleted by using delete keyword.</p>
+<p>Iterating through an array of objects is possible using For...in,For...of,and ForEach()</p>
+<h2>10.Types of functions in JS?</h2>
+<p>A function definition is also called (function declaration or function statement) consists of the function keyword, followed by </p>
+<p>The name of the function </p>
+<p>A list of  parameters to the function,enclosed in parentheses and seperated by commas  </p>
+<p>THE Javascript statements that defines the function,enclosed in curly brackets,{/*.../*}.</p>
+<h2>What is JS in briefing</h2>
+<p>javascript is the scripting language .in which there is 1400000 libraies .</p>
+<p>JQUERY is the famous library in javascript</p>
+<p>its new version launched in 2016 which name is "ECMA 6"</p>
+<P>95% PEOPLE USE Javascript IN frond-end.</P>
+<h2>what is difference between programming and scripting language</h2>
+<p>PROGRAMING := A Programming languange is an organised way to communicate with computer </p>
+<p>Traditional programming is based on low level languages</p>
+<p>The Traditional programming languages such as C,C++,and java are compiled.</p>
+<p>General programming leads to closed to closed software applications</p>
+<p>More code needs  to be written </p>
+<p>SCRIPTING :=  A scripting language is a programming language that support scripts</p>
+<p>scripting prefers high level languages </p>
+<p>Perl,Python,javascript,and other languages used for scripting are interpreted and do not require the compilation step </p>
+
+<h2>create an example with loop?</h2>
+<p>
+    &lt;SCript&gt;
+        let a = 0
+
+        if (a == 0) {
+           alert("are you right")
+        }
+        else{
+           alert("are you wrong")
+        }
+
+   &lt;/SCript&gt;
+   
+</p>
+
+<h2>what are the error in js</h2>
+<p>there are some example of error  </p>
+<ul>
+    <li>InternalError: too much recursion</li>
+    <li>RangeError: argument is not a valid code point</li>
+    <li>SyntaxError: Unexpected token</li>
+    <li>SyntaxError: missing ) after condition</li>
+    <li>TypeError: "x" is not a function</li>
+    <li>Warning: -file- is being assigned a //# sourceMappingURL, but already has one</li>
+</ul>
+
+<h2>what is the lexican envirment</h2>
+<p>lexican Environment is the internal JS engine construct that holds identifier-variable mapping (here identifier refers to the name of variables/functions, and variable is the reference to actual object (including the function type object) or primitive value). A lexical environment also holds a reference to a parent lexical environment.</p>
+<h2>what is DOM? explain?</h2>
+   &lt;script&gt;
+        document.getElementById("btn").addEventListener("click",function (params) {
+            console.log("Called");
+            let passData = document.getElementById("password")
+            console.log(passData.type);
+            if (passData.type == "password") {
+                console.log("Inp Pass");
+                passData.type = "text"
+            }else{
+                passData.type = "password"
+            }
+        })
+    &lt;/script&gt;
+
+<h2>what is client side & server side?</h2>
+
+<p>There are 3 major types of JavaScript namely:
+
+Client-Side JavaScript (CSJS) -- an extended version of JavaScript that enables the enhancement and manipulation of web pages and client browsers
+
+Server-Side JavaScript (SSJS) -- an extended version of JavaScript that enables back-end access to databases, file systems, and servers
+
+Core JavaScript -- the base JavaScript language
+
+Client-Side JavaScript (CSJS) and Server-Side JavaScript (SSJS) are dependent on the core JavaScript and cannot work without it.</p>
+
+<h2>what is global variable?</h2>
+<p>Global Variable: These are variables that are defined in global scope i.e. outside of functions. These variables have global scope, so they can be accessed by any function directly. In the case of global scope variables, the keyword they are declared with does not matter they all act the same. A variable declared without a keyword is also considered global even though it is declared in the function</p>
+
+<h2>adding css in javascript?</h2>
+<p>
+    &lt;p&gt; id="p2">Hello World!&lt;/p&gt;
+    
+    &lt;script&gt;
+    document.getElementById("p2").style.color = "blue";
+    &lt;/script&gt; &lt;/p &gt;
+
+
+
+
+
+
+
+</body>
+
+</html>
